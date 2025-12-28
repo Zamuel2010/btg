@@ -1,0 +1,42 @@
+{
+  "name": "btg-exchange",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prisma:migrate": "prisma migrate deploy",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@prisma/client": "^5.8.0",
+    "@solana/spl-token": "^0.3.7",
+    "@solana/wallet-adapter-base": "^0.10.0",
+    "@solana/wallet-adapter-react": "^0.21.15",
+    "@solana/wallet-adapter-react-ui": "^0.11.8",
+    "@solana/wallet-adapter-wallets": "^0.21.8",
+    "@solana/web3.js": "^1.83.0",
+    "axios": "^1.5.0",
+    "ioredis": "^5.3.2",
+    "jose": "^5.15.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "^2.2.0",
+    "tailwindcss": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.28",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.47.0",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8.4.27",
+    "prisma": "^5.8.0",
+    "typescript": "5.9.6"
+  }
+}
